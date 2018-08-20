@@ -35,11 +35,10 @@ body {
 .cart {
 	font-size: 32px;
 	display: flex;
-	margin-left: 805px;
 }
 
 .basket {
 	margin-bottom: 13px;
 	margin-left: 20px;
-
+	font-size: 32px;
 }

@@ -11,7 +11,8 @@ body {
 .conteiner {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .nav {
@@ -38,9 +39,8 @@ body {
 }
 
 .cart {
-	font-size: 31px;
+	font-size: 32px;
 	display: flex;
-	margin: 0;
 	margin-right: 20px;
 	text-decoration: none;
 	color: #000;
@@ -63,9 +63,10 @@ body {
 
 .features {
 	background-color: #000;
-	width: 815px;
-	height: 1390px;
 	color: #fff;
+}
+
+.text {
 	padding-left: 135px;
 }
 
@@ -81,8 +82,8 @@ body {
 .main_h2 {
 	margin-top: 10px;
 	font-size: 118px;
-	border-bottom: solid 4px;
-	margin-right: 460px;
+	border-bottom: solid 10px;
+	margin-right: 450px;
 }
 
 .main_p {
@@ -102,8 +103,84 @@ body {
 	margin-bottom: 160px;
 }
 
-.prev {
-	width: 500px;
-	height: 170px;
-	background-color: white;
+.button_main {
+	background-color: #fff;
+	height: 215px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: solid 1px #cacaca;
 }
+
+.a_button {
+	 text-decoration: none;
+	 color: #cacaca;
+	 font-size: 40px;
+}
+/*stories*/
+
+.stories {
+	display: flex;	
+	flex-direction: column;
+	align-items: center
+}  
+
+.stories_header {
+	display: flex;
+}
+
+.stories_img {
+		display: flex;
+		justify-content: center;
+}
+
+.stories_img img {
+	margin-right: 120px;
+}
+
+.stories_video {
+	display: flex;
+	justify-content: center;
+	margin-top: 300px;
+}
+
+.stories_video img {
+	margin-right: 120px;
+}
+
+.stories_h2 {
+		font-size: 85px;
+		margin-top: 209px;
+		margin-right: 450px;
+
+}
+
+.button {
+	border: solid 1px #a6a6a6;
+	font-size: 40px;
+	text-decoration: none;
+	color: #a6a6a6;
+	height: 135px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+}
+
+.galka {
+	padding-left: 20px;
+}
+
+.img_p {
+	font-size: 40px;
+	font-weight: 900px;
+	color: #7f7f7f;
+}
+
+.img_p2 {
+	font-size: 40px;
+	font-weight: 900px;
+	color: #1f1f1f;
+}
+

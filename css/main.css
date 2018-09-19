@@ -7,6 +7,8 @@
 body {
 	display: flex;
 	flex-direction: column;
+	/*background: linear-gradient(90deg, #f6f6f6 50%,#fff 50%);
+*/
 }
 
 /*меню*/
@@ -14,6 +16,7 @@ body {
 	display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 .logo img {
@@ -146,7 +149,9 @@ button:focus{
 
 /*Истории*/
 
+
 .storis {
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -155,8 +160,32 @@ button:focus{
 
 .storis-header {
 	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 	width: 90%;
 	margin-bottom: 50px;
+}
+
+.storis-h1 {
+	margin-right: 420px;
+}
+
+.storis-butt {
+	border: 1px solid #a5a5a5;
+	padding: 15px;
+	width: 105px;
+}
+
+.storis-butt-link {
+	text-decoration: none;
+	color: #a5a5a5;
+	font-size: 15px;
+}
+
+.storis-butt-link-img {
+	margin-left: 10px;
+	height: 10px;
+
 }
 
 .storis-img {
@@ -204,8 +233,190 @@ button:focus{
 	justify-content: space-between;
 	width: 90%;
 	margin-top: 20px;
+	margin-bottom: 80px;
 }
 
 .video {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background: url(../img/stories4.jpg) center no-repeat;
+	background-size: cover;
 	width: 65%; 
+}
+
+.left-block {
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	justify-content: space-around;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.left-block-img {
+	width: 60px;
+	margin-bottom: 20px;
+}
+
+.left-text {
+	font-size:  25px;
+	color: #95908a;
+	letter-spacing: 10px;
+	text-transform:uppercase;
+}
+
+.left-text-p {
+	font-size: 70px;
+	color: #fff;
+}
+
+.right-block {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	font-size: 30px;
+	color:#fff;
+	margin-right: 60px;
+}
+
+.right-block-img {
+	height: 15px;
+	margin-left: 30px;
+}
+
+/*пост*/
+
+.posters {
+	background-color: #1f1f1f;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.posters-item {
+	width: 90%;
+	margin-top: 100px;
+}
+
+.posters-content {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.posters-img {
+	background: url(../img/posters-img.jpg) center no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: 600px;
+}
+
+.posters-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.poster-nav {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.posters-txt {
+	margin-left: 100px;
+}
+
+.posters-list {
+	list-style: none;
+	line-height: 75px;
+}
+
+.posters-link {
+	text-decoration: none;
+	font-size: 30px;
+	color:#fff;
+}
+
+.posters-butt {
+	width: 200px;
+}
+
+/*подписки*/
+
+.Subscription {
+	
+}
+
+.magazine {
+	background: url(../img/bg-Subscription.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+    padding-bottom: 100px;
+	
+}
+
+.magazine-title {
+	text-align: center;
+}
+
+.magazine-item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.issue {
+	width: 400px;
+}
+
+.img1 {
+	height: 350px;
+	width: 300px;
+	margin-right: 50px;
+
+}
+
+.img2 {
+	height: 450px;
+	width: 350px;
+	margin-right: 50px;
+}
+
+.issue-h1 {
+	font-size: 22px;
+}
+
+.issue-h2 {
+	font-size: 50px;
+}
+
+.issue-btn {
+	text-decoration: none;
+	color: #a5a5a5;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #000;
+	padding: 20px;
+}
+
+.btn-issue {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.dylan {
+	display: flex;
+	background: url(../img/bg-dyian.jpg) no-repeat;
+
+
+}
+
+.dylan-text {
+
+	width: 400px;
+	background-color: #000;
 }
